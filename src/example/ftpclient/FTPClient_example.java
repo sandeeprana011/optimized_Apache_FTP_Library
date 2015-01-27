@@ -32,7 +32,7 @@ public class FTPClient_example {
            
             
             
-            FTPFile[] fi=fTPClient.listFiles("/htdocs/1");
+            FTPFile[] fi=fTPClient.listFiles("/htdocs");
             
 
             for (int i = 0; i < fi.length; i++) {
